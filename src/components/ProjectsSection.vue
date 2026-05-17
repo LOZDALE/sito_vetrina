@@ -45,12 +45,13 @@ const projects = computed(() => [
     link: 'https://github.com/LOZDALE/pymobile/tree/main'
   },
   {
-    title: 'Modern Web Experience',
+    title: 'Questo sito',
     description: locale.value === 'it' 
-      ? 'Engineering UI ad alta fedeltà con Vue 3, styling avanzato Tailwind v4 e architettura performance-first.' 
-      : 'High-fidelity UI engineering with Vue 3, advanced Tailwind v4 styling, and performance-first architecture.',
+      ? 'Sito vetrina realizzto in vue 3 con prime ui .' 
+      : 'Web site made entirely in vue 3 with prime ui.',
     tags: ['Vue 3', 'Tailwind v4', 'Vite', 'TypeScript'],
-    image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800'
+    image: '/Sito_vetrina.jpg',
+    link: 'https://github.com/LOZDALE/sito_vetrina'
   }
 ])
 </script>
